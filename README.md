@@ -27,5 +27,5 @@ while read requirement; do conda install -n myenv --yes $requirement; done < req
 ```
 # Running experiments
 We have implemented the [`IDID`](https://ieee-dataport.org/competitions/insulator-defect-detection) dataset, from IEEE as reported in the paper. 
-## Deep SAD
+## APEXP
 You can run APEXP experiments following the steps below:    
