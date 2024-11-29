@@ -11,6 +11,11 @@ This code is written in Python 3.7 and requires the packages listed in requireme
 
 Clone the repository to your machine and directory of choice:
 
+
+```
+git clone https://github.com/JhonnyXai/Automated-Processing-of-Explanations.git
+```
+
 To run the code, we recommend setting up a virtual environment, e.g. using conda:
 
 ### `conda`
