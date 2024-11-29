@@ -6,3 +6,13 @@ This work proposes a novel methodology that processes GradCAM explanations with 
 # Abstract
 
 # The need for Automated-Processing-of-Explanations
+# Installation
+This code is written in Python 3.7 and requires the packages listed in requirements.txt.
+
+Clone the repository to your machine and directory of choice:
+
+To run the code, we recommend setting up a virtual environment, e.g. using virtualenv or conda:
+cd <path-to-Porcess-Exp-PyTorch-directory>
+conda create --name myenv
+source activate myenv
+while read requirement; do conda install -n myenv --yes $requirement; done < requirements.txt
