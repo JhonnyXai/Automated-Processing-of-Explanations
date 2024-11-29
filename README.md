@@ -5,4 +5,4 @@ This work proposes a novel methodology that processes GradCAM explanations with 
 
 # Abstract
 
-#The need for Automated-Processing-of-Explanations
+# The need for Automated-Processing-of-Explanations
