@@ -29,9 +29,3 @@ while read requirement; do conda install -n myenv --yes $requirement; done < req
 We have implemented the [`IDID`](https://ieee-dataport.org/competitions/insulator-defect-detection) dataset, from IEEE as reported in the paper. 
 ## Deep SAD
 You can run APEXP experiments following the steps below:    
-
-
-# run experiment
-python main.py mnist mnist_LeNet ../log/DeepSAD/mnist_test ../data --ratio_known_outlier 0.01 --ratio_pollution 0.1 --lr 0.0001 --n_epochs 150 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True --ae_lr 0.0001 --ae_n_epochs 150 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --normal_class 0 --known_outlier_class 1 --n_known_outlier_classes 1;
-```
-Have a look into `main.py` for all possible arguments and options.
