@@ -26,4 +26,4 @@ source activate myenv
 while read requirement; do conda install -n myenv --yes $requirement; done < requirements.txt
 ```
 # Running experiments
-We have implemented the [`IDID`](https://ieee-dataport.org/competitions/insulator-defect-detection), from IEEE as reported in the paper. 
+We have implemented the [`IDID`](https://ieee-dataport.org/competitions/insulator-defect-detection) dataset, from IEEE as reported in the paper. 
